@@ -1,0 +1,26 @@
+
+todo:
+    linear regretion error calculation
+
+general notes:
+    variable with a hat = known variable.
+
+
+Linear regression:
+    equation:
+        y = a + bx +  (first degree)
+        
+        a = intercept
+        b = slope
+        y & x = predictions
+
+    definitions:
+        features: the variables where interested in.
+        
+        predictor/depedant variable: x
+        response/indepedant variable: y
+
+        residual(s): the distance(s) from the points to the line
+
+    general:
+        - most popular alg for calculating the regression line is the least squares alg.
