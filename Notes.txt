@@ -1,3 +1,8 @@
+ask:
+    excerize 0: normal equation for simple linear regretion?
+    excerize 0: when to use train/test for graphs
+
+
 
 todo:
     linear regretion error calculation
