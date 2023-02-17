@@ -27,3 +27,8 @@ Linear regression:
 
     general:
         - most popular alg for calculating the regression line is the least squares alg.
+
+
+Gradient descent:
+    general:
+        step size: slope(gradient) * learning rate
