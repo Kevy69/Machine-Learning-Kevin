@@ -4,8 +4,6 @@ ask:
 
 
 
-todo:
-    linear regretion error calculation
 
 general notes:
     variable with a hat = known variable.
