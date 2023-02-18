@@ -32,3 +32,6 @@ Linear regression:
 Gradient descent:
     general:
         step size: slope(gradient) * learning rate
+
+    batch gradient descent:
+        equation: θⱼ₊₁ = θⱼ - n(2/m * Xᵀ (X * θⱼ - y))
