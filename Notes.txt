@@ -1,8 +1,9 @@
 ask:
     excerize 0: normal equation for simple linear regretion?
     excerize 0: when to use train/test for graphs
-    
-    why set loss="squared error" when using SGDregressor, when we intend to do SGD.
+
+    is learning_rate_schedule (e.g slow down learn rate per unit epoch and or gradient)
+    only needed for stochastic gradient descent?
 
 
 
