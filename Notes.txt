@@ -5,8 +5,7 @@ ask:
     is learning_rate_schedule (e.g slow down learn rate per unit epoch and or gradient)
     only needed for stochastic gradient descent?
 
-
-
+    mini batch code implementation (wtf do i do?)
 
 general notes:
     variable with a hat = known variable.
