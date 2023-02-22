@@ -1,11 +1,13 @@
 ask:
-    excerize 0: normal equation for simple linear regretion?
     excerize 0: when to use train/test for graphs
 
     is learning_rate_schedule (e.g slow down learn rate per unit epoch and or gradient)
     only needed for stochastic gradient descent?
 
     mini batch code implementation (wtf do i do?)
+
+    why do feature scaling?
+    what is SVD?
 
 general notes:
     variable with a hat = known variable.
