@@ -39,3 +39,8 @@ Gradient descent:
 
     batch gradient descent:
         equation: θⱼ₊₁ = θⱼ - n(2/m * Xᵀ (X * θⱼ - y))
+
+
+polynomial regression:
+    degree = increasing powers, getting more none linear
+    order = dimentionality.
