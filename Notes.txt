@@ -6,8 +6,13 @@ ask:
 
     mini batch code implementation (wtf do i do?)
 
-    why do feature scaling?
     what is SVD?
+
+    use x_test or scaled_x_test? data leakage?
+        code in question:
+        x_train_poly_features = poly_features.fit_transform(scaled_x_train)
+        x_test_poly_features = poly_features.transform(x_test)
+
 
 general notes:
     variable with a hat = known variable.
