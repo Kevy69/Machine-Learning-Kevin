@@ -1,17 +1,5 @@
 ask:
-    excerize 0: when to use train/test for graphs
-
-    is learning_rate_schedule (e.g slow down learn rate per unit epoch and or gradient)
-    only needed for stochastic gradient descent?
-
     mini batch code implementation (wtf do i do?)
-
-    what is SVD?
-
-    use x_test or scaled_x_test? data leakage?
-        code in question:
-        x_train_poly_features = poly_features.fit_transform(scaled_x_train)
-        x_test_poly_features = poly_features.transform(x_test)
 
 
 general notes:
