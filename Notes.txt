@@ -1,9 +1,32 @@
 ask:
     mini batch code implementation (wtf do i do?)
 
+General:
+    Stuff one can do:
+        Load Data
+        Train test split
+        Standardize data (feature scaling)
 
-general notes:
-    variable with a hat = known variable.
+        linear/multiple regression
+
+        polynomial regression (Arbitrarily add features)
+        Regulirazation
+    
+
+    False positive (FP) = falsely saying its positive. Saying patient has cancer, while he doesn't
+    False negative (FN) = falsely saying its negative. Saying patient doesn't have cancer, while he does
+    True positive (TP) = truly saying its positive. Saying patient has cancer, when he does.
+    True negative (TN) = truly saying its negative. Saying patient doesn't have cancer, while he doesn't.
+
+    accuracy = Part devided by whole.
+    recall = TP/(TP+FN)
+    precision = TP/(TP+FP)
+
+    sensitivity = How often the test show a positive result, while patient has cancer.
+    specificity = How often the test show a negative result, while patient doesn't have cancer.
+
+
+
 
 
 Linear regression:
