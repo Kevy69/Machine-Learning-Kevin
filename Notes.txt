@@ -1,6 +1,7 @@
 ask:
     mini batch code implementation (wtf do i do?)
 
+
 General:
     Stuff one can do:
         Load Data
@@ -11,6 +12,8 @@ General:
 
         polynomial regression (Arbitrarily add features)
         Regulirazation
+
+        logistic regression
     
 
     False positive (FP) = falsely saying its positive. Saying patient has cancer, while he doesn't
