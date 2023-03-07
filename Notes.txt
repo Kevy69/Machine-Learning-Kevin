@@ -29,6 +29,14 @@ General:
     specificity = How often the test show a negative result, while patient doesn't have cancer.
 
 
+    penalty = method to use. l1, l2 or elasticnet
+
+    l1_ratio (alpha) = ratio of lasso and ridge to use. Starts with lasso, meaning a ratio of 0.9
+                        would use 90% lasso and 10% ridge
+                        
+    regularization strength (c) = How hard the alg's will be on reducing/removing features (e.g how much to
+                        increase bias and decrease varience). inversely proportional (lower = higher).
+
 
 
 
