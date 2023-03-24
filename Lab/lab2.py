@@ -1,0 +1,25 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+class Helper:
+    def train_val_test_split(x, y, split_size, rand_state):
+
+        # N / (1 - N)
+        val_split_size = split_size / (1 - split_size)
+
+        # Train val test
+        x_train, x_test, y_train, y_test = train_test_split(
+            x, y, test_size=split_size, random_state=rand_state
+        )
+
+        x_train, x_val, y_train, y_val = train_test_split(
+            x_train, y_train, test_size=val_split_size, random_state=rand_state
+        )
+        
+        return (x_train, x_val, x_test, y_train, y_val, y_test)
+    
+    
