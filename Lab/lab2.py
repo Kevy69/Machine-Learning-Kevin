@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 class Helper:
     def train_val_test_split(x, y, split_size, rand_state):
@@ -23,3 +23,15 @@ class Helper:
         return (x_train, x_val, x_test, y_train, y_val, y_test)
     
     
+    def scaler(type: str, x1, x2):
+        if type == "standard":
+            scaler = StandardScaler() # should be class variable?
+        else:
+            scaler = MinMaxScaler()
+        
+        # x1: train
+        # x2: val
+        x1 = scaler.fit_transform(x1)
+        x2 = scaler.transform(x2)
+
+        return (x1, x2)
