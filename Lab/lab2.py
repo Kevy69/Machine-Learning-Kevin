@@ -35,3 +35,4 @@ class Helper:
         x2 = scaler.transform(x2)
 
         return (x1, x2)
+    
