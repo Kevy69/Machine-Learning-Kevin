@@ -1,7 +1,3 @@
-ask:
-    mini batch code implementation (wtf do i do?)
-
-
 General:
     Stuff one can do:
         Load Data
@@ -27,45 +23,6 @@ General:
 
     sensitivity = How often the test show a positive result, while patient has cancer.
     specificity = How often the test show a negative result, while patient doesn't have cancer.
-
-
-    penalty = method to use. l1, l2 or elasticnet
-
-    l1_ratio (alpha) = ratio of lasso and ridge to use. Starts with lasso, meaning a ratio of 0.9
-                        would use 90% lasso and 10% ridge
-                        
-    regularization strength (c) = How hard the alg's will be on reducing/removing features (e.g how much to
-                        increase bias and decrease varience). inversely proportional (lower = higher).
-
-
-
-
-Linear regression:
-    equation:
-        y = a + bx +  (first degree)
-        
-        a = intercept
-        b = slope
-        y & x = predictions
-
-    definitions:
-        features: the variables where interested in.
-        
-        predictor/depedant variable: x
-        response/indepedant variable: y
-
-        residual(s): the distance(s) from the points to the line
-
-    general:
-        - most popular alg for calculating the regression line is the least squares alg.
-
-
-Gradient descent:
-    general:
-        step size: slope(gradient) * learning rate
-
-    batch gradient descent:
-        equation: θⱼ₊₁ = θⱼ - n(2/m * Xᵀ (X * θⱼ - y))
 
 
 polynomial regression:

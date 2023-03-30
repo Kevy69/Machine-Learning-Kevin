@@ -4,7 +4,10 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 class Helper:
     def train_val_test_split(x, y, split_size, rand_state):
 
-        # N / (1 - N)
+        # after researching a bit, it appears as though the common practice for a train val test split
+        # is to use the follow equation: N / (1 - N)
+        # where N = the split ratio. This ensures that your val and test portions are equally sized.
+        
         val_split_size = split_size / (1 - split_size)
 
         # Train val test
@@ -24,9 +27,7 @@ class Helper:
             scaler = StandardScaler() # should be class variable?
         else:
             scaler = MinMaxScaler()
-        
-        # x1: train
-        # x2: val
+
         x1 = scaler.fit_transform(x1)
         x2 = scaler.transform(x2)
 
